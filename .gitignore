@@ -105,3 +105,13 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Ignore the folder that has huge 3D assets
+Assets/MegaAssets/
+
+# Also ignore Unity's temporary files (always good to ignore these)
+Library/
+Temp/
+obj/
+*.csproj
+*.sln
